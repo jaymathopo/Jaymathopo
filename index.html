@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Cart System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>E-commerce Cart System</h1>
+    <section id="product-catalog">
+        <h2>Product Catalog</h2>
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>Price: R 10.99</p>
+            <button class="add-to-cart" data-product="Product 1" data-price="10.99">Add to Cart</button>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>Price: R 5.99</p>
+            <button class="add-to-cart" data-product="Product 2" data-price="5.99">Add to Cart</button>
+        </div>
+    </section>
+    <section id="shopping-cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price"></p>
+        <button id="clear-cart">Clear Cart</button>
+    </section>
+    <section id="font-preferences">
+        <h2>Font Preferences</h2>
+        <select id="font-select">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+        </select>
+    </section>
+    <section id="user-info">
+        <h2>User Information</h2>
+        <input id="username" type="text" placeholder="Enter your name">
+        <button id="save-username">Save</button>
+        <p id="greeting"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
